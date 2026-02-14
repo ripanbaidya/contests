@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 class Solution {
     public long countPairs(String[] words) {
         HashMap<String, Long> map = new HashMap<>();

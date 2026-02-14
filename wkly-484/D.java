@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
     public int maximumAND(int[] nums, int k, int m) {
         int n = nums.length;
