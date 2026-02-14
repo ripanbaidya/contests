@@ -12,6 +12,7 @@ class Solution {
             else cur=2;
             if(cur>maxLen) maxLen=cur;
         }
+        
         return maxLen;
     }
 }

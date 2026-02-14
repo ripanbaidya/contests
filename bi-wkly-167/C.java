@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 class ExamTracker {
     private ArrayList<Integer> times;
     private ArrayList<Long> pref;

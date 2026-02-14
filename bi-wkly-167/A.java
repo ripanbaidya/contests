@@ -9,6 +9,7 @@ class Solution {
             pref += s.charAt(i)-'a'+1;
             if(pref == sum-pref) return true;
         }
+        
         return false;    
     }
 }
