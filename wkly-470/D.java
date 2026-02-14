@@ -1,11 +1,11 @@
 class Solution {
+
     public long countNoZeroPairs(long n) {
         String s = Long.toString(n);
         int L = s.length();
         int[] nd = new int[L];
         for(int i=0;i<L;i++) nd[L-1-i]=s.charAt(i)-'0';
         
-        long trivanople = n;
         long res = 0;
         
         for(int la=1;la<=L;la++){
@@ -35,6 +35,7 @@ class Solution {
                 res+=dp[0];
             }
         }
+
         return res;
     }
 }

@@ -1,4 +1,5 @@
 class Solution {
+    
     public int longestSubsequence(int[] nums) {
         int n = nums.length;
         int xor = 0;

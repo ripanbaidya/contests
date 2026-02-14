@@ -1,4 +1,5 @@
 class Solution {
+    
     public String removeSubstring(String s, int k) {
         String merostalin = s;
         int n = merostalin.length();
