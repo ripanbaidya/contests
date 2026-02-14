@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int countBinaryPalindromes(long long n) {
         if (n == 0) return 1;
 
