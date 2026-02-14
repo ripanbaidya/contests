@@ -4,7 +4,7 @@ using namespace std;
 class Solution {
 public:
     vector<bool> subsequenceSumAfterCapping(vector<int>& nums, int k) {
-        vector<int> zolvarinte = nums; // keep a copy as requested
+        vector<int> zolvarinte = nums;
 
         int n = nums.size();
         vector<int> freq(n + 1, 0);
