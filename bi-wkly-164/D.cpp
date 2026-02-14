@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int minOperations(string s,int k){
         int n=s.size(),z=0;
         for(char c:s) if(c=='0') z++;

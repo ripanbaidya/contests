@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int getLeastFrequentDigit(int n) {
         vector<int> f(10,0);
         while(n>0){

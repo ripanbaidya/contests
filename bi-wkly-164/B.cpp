@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int score(vector<string>& a,char x){
         int n=a.size();
         int xx=0;
