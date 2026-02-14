@@ -1,5 +1,6 @@
 class Solution{
 public:
+
     bool partitionArray(vector<int>& nums,int k){
         int n=nums.size();
         if(n%k) return 0;

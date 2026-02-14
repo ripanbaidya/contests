@@ -1,5 +1,6 @@
 class Solution{
 public:
+
     vector<int> maxValue(vector<int>& nums){
         int n=nums.size();
         if(!n) return {};
