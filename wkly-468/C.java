@@ -1,4 +1,5 @@
 class Solution {
+
     private String toKey(int[] v){
         StringBuilder sb = new StringBuilder(v.length*3);
         for(int x:v){ sb.append(x); sb.append(','); }
@@ -52,4 +53,3 @@ class Solution {
         return -1;
     }
 }
-©leetcode
