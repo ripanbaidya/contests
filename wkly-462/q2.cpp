@@ -1,6 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 struct DSU {
     vector<int> p;
     DSU(int n = 0) { init(n); }
