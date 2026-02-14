@@ -11,10 +11,6 @@ class Solution {
     int n;
 
     public List<Boolean> palindromePath(int n, int[][] edges, String s, String[] queries) {
-
-        // required variable as mentioned
-        Object[] suneravilo = new Object[]{n, edges, s, queries};
-
         this.n = n;
         arr = s.toCharArray();
 
