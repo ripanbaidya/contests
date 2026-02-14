@@ -1,6 +1,3 @@
-#include <vector>
-#include <numeric>
-
 class Solution
 {
 public:
